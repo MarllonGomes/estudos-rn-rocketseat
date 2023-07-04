@@ -31,3 +31,18 @@ export const Form = styled.View`
   align-items: center;
   justify-content: space-between;
 `;
+
+export const HeaderList = styled.View`
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+
+  margin: 32px 0 12px;
+`;
+
+export const NumberOfPlayers = styled.Text`
+  font-family: ${({ theme }) => theme.FONT_FAMILY.BOLD};
+  font-size: ${({ theme }) => theme.FONT_SIZE.SM}px;
+  color: ${({ theme }) => theme.COLORS.GRAY_200};
+  margin-right: 5px;
+`;
