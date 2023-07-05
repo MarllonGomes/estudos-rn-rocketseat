@@ -1,8 +1,12 @@
 import { Loading } from "@components/Loading";
-import { Roboto_400Regular, Roboto_700Bold, useFonts } from "@expo-google-fonts/roboto";
-import { Groups } from "@screens/Groups";
+import {
+  Roboto_400Regular,
+  Roboto_700Bold,
+  useFonts,
+} from "@expo-google-fonts/roboto";
 import { StatusBar } from "expo-status-bar";
 import { ThemeProvider } from "styled-components/native";
+import { Routes } from "./src/routes";
 import theme from "./src/theme";
 
 export default function App() {
@@ -10,7 +14,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      {fontsLoaded ? <Groups /> : <Loading />}
+      {fontsLoaded ? <Routes /> : <Loading />}
       <StatusBar style="light" translucent />
     </ThemeProvider>
   );
