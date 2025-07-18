@@ -12,7 +12,7 @@
     "@expo-google-fonts/roboto": "^0.2.3",
     "@react-navigation/native": "^6.1.7",
     "@react-navigation/native-stack": "^6.9.13",
-    "expo": "~48.0.15",
+    "expo": "~53.0.19",
     "expo-font": "~11.1.1",
     "expo-status-bar": "~1.4.4",
     "phosphor-react-native": "^1.1.2",
